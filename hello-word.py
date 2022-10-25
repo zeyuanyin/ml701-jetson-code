@@ -1,7 +1,7 @@
-import jetson.inference
-import jetson.utils
+import jetson_inference
+import jetson_utils
 
-net = jetson.inference.detectNet('SSD-Mobilenet-v2', threshold=0.5)
+net = jetson_inference.detectNet('SSD-Mobilenet-v2', threshold=0.5)
 
 print('load model success')
 
